@@ -12,14 +12,13 @@ A polished, interactive React calendar component inspired by physical wall calen
 - **Fully Responsive**: Seamless adaptation between desktop and mobile layouts with optimized interactions
 
 ### Creative Additions
-- **Hanging Effect**: Realistic slanted rope from central nail with subtle swing motion (desktop only)
+- **Hanging Effect**: Realistic slanted rope from central nail(desktop only)
 - **Diagonal Page-Flip Animation**: Natural month navigation where next month goes top-left (↖️) and previous goes top-right (↗️)
 - **3D Flip Cards**: Desktop hover reveals note details with 3D transform, mobile tap with fade transition
 - **Spiral Binding**: Authentic calendar rings at the top (responsive sizing)
 - **Month Navigation**: Navigate between months with smooth diagonal animations
 - **Today Indicator**: Current date highlighted in the calendar
 - **localStorage Persistence**: All notes saved automatically with title and details
-- **Dark/Light Theme Support**: Automatic theme detection via CSS variables
 
 ## 🛠️ Technology Stack
 
@@ -81,16 +80,14 @@ npm run preview
 - **Notes Organization**: Month-based filtering with edit/delete controls (always visible on mobile, hover on desktop)
 - **Mobile Optimization**: 
   - Smaller spiral rings and tighter spacing
-  - Simple fade transitions instead of 3D transforms for text clarity
   - Always-visible edit/delete icons for better touch accessibility
-  - No blur effects on interactive elements
 - **Animation Direction**: Natural page-turning where next month exits top-left and previous exits top-right
 
 ## 📱 Responsive Behavior
 
 ### Desktop (≥768px)
 - Side-by-side layout: Notes panel (left) + Calendar grid (right)
-- Hanging rope effect with slanted ropes from central nail and subtle swing animation
+- Hanging rope effect with slanted ropes from central nail 
 - Curved overlay design on hero section
 - Full-size spiral binding rings (w-3 h-3, gap-2)
 - 3D flip card on hover with perspective and rotateY transforms
@@ -103,7 +100,6 @@ npm run preview
 - Touch-optimized buttons and inputs
 - Simple fade transitions for flip cards (no 3D transforms for text clarity)
 - Edit/delete icons always visible for better accessibility
-- No blur effects on buttons, inputs, or notes
 
 ## 💾 Data Storage
 
@@ -173,7 +169,7 @@ Notes are stored in localStorage with enhanced structure:
 ✅ Flip card popup with 3D animation (desktop) and fade (mobile)  
 ✅ Diagonal page-flip animation for month navigation  
 ✅ Hanging calendar effect with slanted ropes  
-✅ Mobile-optimized interactions (no blur, always-visible controls)  
+✅ Mobile-optimized interactions 
 ✅ localStorage persistence for all note data  
 
 ## 🔧 Technical Optimizations
@@ -200,4 +196,4 @@ MIT License - Feel free to use this project for learning and development.
 
 ## 👨💻 Author
 
-Created as part of a frontend engineering assessment showcasing React, responsive design, animations, and UX implementation skills.
+Created as part of my frontend engineering assessment showcasing React, responsive design, animations, and UX implementation skills.

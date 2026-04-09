@@ -4,7 +4,7 @@ import CalendarHeader from './CalendarHeader';
 function HeroSection({ currentMonth, currentYear, onPrevMonth, onNextMonth }) {
   return (
     <div className="relative">
-      {/* Spiral binding loops - finalized styling */}
+      {/* Spiral binding loops */}
       <div className="absolute -top-2 left-0 right-0 flex justify-center z-20">
         <div className="flex items-end gap-[0.35rem] sm:gap-2">
           {[...Array(18)].map((_, i) => (
@@ -18,7 +18,7 @@ function HeroSection({ currentMonth, currentYear, onPrevMonth, onNextMonth }) {
 
       {/* Hero image section */}
       <div className="relative h-80 bg-gradient-to-br from-blue-400 via-blue-500 to-blue-600 overflow-hidden">
-        {/* Background pattern/image */}
+        {/* Background image */}
         <div className="absolute inset-0 bg-cover bg-center opacity-40" 
              style={{ backgroundImage: "url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800')" }}>
         </div>
