@@ -2,6 +2,8 @@
 
 A polished, interactive React calendar component inspired by physical wall calendars, featuring date range selection, integrated notes with title/details structure, holiday markers, and a beautiful hanging calendar aesthetic with realistic page-flip animations.
 
+🔗 **Live Demo**: [https://swe-task-gray.vercel.app/](https://swe-task-gray.vercel.app/)
+
 ## 🎯 Features
 
 ### Core Features
