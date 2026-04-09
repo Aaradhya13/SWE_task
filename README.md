@@ -196,6 +196,6 @@ Notes are stored in localStorage with enhanced structure:
 
 MIT License - Feel free to use this project for learning and development.
 
-## 👨💻 Author
+## 💻 Author
 
 Created as part of my frontend engineering assessment showcasing React, responsive design, animations, and UX implementation skills.
